@@ -444,3 +444,45 @@ CSS
     flex-direction: column;
   }
 }
+
+
+
+
+<table>
+  <tr>
+    <th>Producto</th>
+    <th>Precio</th>
+    <th>Stock</th>
+  </tr>
+  <tr>
+    <td>Teclado</td>
+    <td>25 €</td>
+    <td>Disponible</td>
+  </tr>
+  <tr>
+    <td>Ratón</td>
+    <td>15 €</td>
+    <td>Agotado</td>
+  </tr>
+</table>
+
+
+table {
+  width: 50%;
+  border-collapse: collapse; /* Une los bordes */
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #cccccc; /* Borde gris fino en cada celda */
+  padding: 10px; /* Espacio interno para que el texto respire */
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; /* Fondo gris claro para el encabezado */
+}
+
+tfoot {
+  font-weight: bold; /* Pone en negrita la fila del total */
+}
